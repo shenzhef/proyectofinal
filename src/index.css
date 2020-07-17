@@ -1,0 +1,71 @@
+:-webkit-any(article, aside, nav, section) h1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+@font-face {
+  font-family: 'Messina Sans';
+  src: url('./assets/fonts/MessinaSansWeb-Regular.woff2') format('woff2'),
+    url('./assets/fonts/MessinaSansWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Messina Sans';
+  src: url('./assets/fonts/MessinaSansWeb-Bold.woff2') format('woff2'),
+    url('./assets/fonts/MessinaSansWeb-Bold.woff') format('woff');
+  font-weight: 500;
+  font-style: bold;
+}
+
+:root {
+  --green: #07d57d;
+  --red: #d03737;
+  --biggGreen: #adff19;
+  --font: 'Messina Sans';
+  --greenApp: #adff19;
+  --darkGray: #222222;
+  --backGround: #111;
+}
+
+body {
+  font-family: 'Messina Sans';
+  letter-spacing: -0.9px;
+}
+
+.main {
+  font-family: 'Messina Sans';
+  letter-spacing: -0.9px;
+}
+.loginform {
+  background-color: #111;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+#exampleInputEmail1 {
+  background-color: #222222;
+  border: none;
+  padding: 15px;
+  color: #fff;
+}
+#exampleInputEmail2 {
+  background-color: #222222;
+  border: none;
+  padding: 15px;
+  color: #fff;
+}
+#btn-primary {
+  background-color: #222222;
+  border: 1px solid var(--biggGreen);
+  padding: 15px 40px 15px 40px;
+  border-radius: 6px;
+  width: 100%;
+  color: #fff;
+}
+.btn-submit {
+  width: 100%;
+}
