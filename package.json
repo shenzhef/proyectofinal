@@ -2,6 +2,9 @@
   "name": "react-firebase",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "13.10.1"
+  },
   "dependencies": {
     "bootstrap": "^4.0.0",
     "firebase": "^7.16.1",
