@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "firebase": "^4.12.1",
+    "firebase": "^7.16.1",
     "react": "^16.13.1",
     "react-arrow": "^2.0.4",
     "react-dom": "^16.13.1",
